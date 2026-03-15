@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/sections/ctasection.tsx","./src/components/sections/faqsection.tsx","./src/components/sections/footersection.tsx","./src/components/sections/herosection.tsx","./src/components/sections/whitelabelsection.tsx","./src/components/ui/grid-feature-cards.tsx","./src/lib/utils.ts"],"errors":true,"version":"5.9.3"}
