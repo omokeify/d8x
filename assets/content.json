@@ -1,0 +1,308 @@
+{
+  "brand": {
+    "name": "D8X",
+    "fullTitle": "D8X - Decentralized Perpetual Futures",
+    "parts": ["D", "8", "X"],
+    "suffix": "_Trade"
+  },
+  "nav": [
+    { "label": "01. FEATURES", "href": "#solutions" },
+    { "label": "02. WHITELABEL", "href": "#grid-divider" },
+    { "label": "03. FAQ", "href": "#faq" },
+    { "label": "04. DOC", "href": "https://d8x.gitbook.io/d8x" }
+  ],
+  "hero": {
+    "badge": "// DECENTRALIZED EXCHANGE",
+    "headline1": "Enabling Leverage on",
+    "headline2": "Everything, Everywhere",
+    "subhead": "Building incorruptible financial machines - together",
+    "cta": "LAUNCH APP",
+    "statusLeft": "SYSTEM STATUS: NORMAL",
+    "zone": "ZONE A-14",
+    "camLabel": "CAM_04 [LIVE]",
+    "nexusLabel": "NEXUS ENGINE V4.0",
+    "cpuLoad": "12%",
+    "memAlloc": "64GB",
+    "schematicsLink": "VIEW SCHEMATICS ->"
+  },
+  "features": {
+    "platform": {
+      "tag1": "TRADE ENGINE",
+      "tag2": "MARKETS",
+      "tag3": "WHITE-LABEL",
+      "p1": "D8X's trade engine empowers users to trade virtually anything with leverage — from prediction markets to meme coins, FX, commodities, and equity indices.",
+      "p2": "Leveraged prediction markets enable users to bet on politics, sports and entertainment. D8X also offers perpetuals futures that allow users to trade anything: from low-cap meme coins, FX, commodities to equity indices.",
+      "p3": "D8X's plug-and-play white-label solutions enable partners to spin up their own derivative shop with zero development work. Web3 brands ranging from spot DEXs, large KOLs to launchpads and centralized brokers use D8X to add a new revenue stream to their business.",
+      "chains": "Powered by Polygon zkEVM, Arbitrum, Berachain and XLayer!"
+    }
+  },
+  "scenarios": {
+    "badge": "FEATURES",
+    "title": "Features",
+    "desc": "White-label an incorruptible financial machine",
+    "items": [
+      {
+        "id": "01",
+        "title": "White-label and earn",
+        "desc": "White-label partners can route their traders to D8X while utilizing its native white-label partner fee option and opening a revenue stream worth millions of dollars per year."
+      },
+      {
+        "id": "02",
+        "title": "Institutional grade",
+        "desc": "D8X offers classical perpetuals with no borrowing or roll-over fees. They can be calibrated for a diverse range of underlying assets and support linear, inverse, and quanto perpetuals."
+      },
+      {
+        "id": "03",
+        "title": "Best trading conditions",
+        "desc": "D8X offers the opportunity to trade perpetual futures while profiting from the best trading conditions DeFi has to offer. We are proud of our low slippage, gas cost, and trading fees."
+      },
+      {
+        "id": "04",
+        "title": "Trade memes and low-cap alts",
+        "desc": "D8X allows you to trade perpetuals on low-cap tokens that just launched on spot DEXs."
+      },
+      {
+        "id": "05",
+        "title": "Simple and fast integration",
+        "desc": "White-label partners can fork, brand & host D8X's UI kit, integrate D8X in their existing app using SDKs and APIs, or directly integrate on-chain. Spin-up your own perpetual futures frontend in less than a week."
+      },
+      {
+        "id": "06",
+        "title": "Trustless",
+        "desc": "Your funds are never used outside smart contract specifications. Self-custody ensures you are not vulnerable to reckless third-parties."
+      },
+      {
+        "id": "07",
+        "title": "Optimal hedging on-chain",
+        "desc": "D8X's perpetuals are meant to be used as hedging instruments; it is made possible with our low holding costs and our offer of linear, inverse and quanto perpetuals. D8X offers contract-trading, so protocols can hedge on-chain."
+      },
+      {
+        "id": "08",
+        "title": "Fully decentralized",
+        "desc": "Liquidity provision, liquidations, and order execution is decentralized. With our white-label model and our robust on-chain governance, institutional professionalism and decentralization go hand in hand."
+      },
+      {
+        "id": "09",
+        "title": "Provide liquidity to earn mature tokens",
+        "desc": "Liquidity providers participate in the AMM profit and loss without impermanent loss, and earn fees. All earnings are in the liquidity pool's margin token such as USDC or MATIC."
+      },
+      {
+        "id": "10",
+        "title": "Advanced risk management",
+        "desc": "The AMM applies risk-mitigation techniques similar to those used for enterprise-wide risk-management and clearing-houses. The D8X token is not used in pricing or as collateral to prevent wrong-way risk."
+      }
+    ],
+    "viewAll": "View All Doc",
+    "viewAllHref": "https://d8x.gitbook.io/d8x",
+    "partnership": {
+      "label": "in proud partnership with",
+      "partners": [
+        { "name": "Polygon Ventures", "url": "https://polygon.technology/ventures" },
+        { "name": "Axelar", "url": "https://axelar.network" },
+        { "name": "SwissBorg", "url": "https://swissborg.com" },
+        { "name": "Pyth", "url": "https://pyth.network" }
+      ]
+    }
+  },
+  "gridDivider": {
+    "badge": "WHITELABELING",
+    "title": "Whitelabeling",
+    "desc": "Fork, brand, and integrate D8X into your frontend. Earn partner fees on every trade."
+  },
+  "systemFlow": {
+    "badge": "How It Works",
+    "title": "How It Works",
+    "desc": "How traders, liquidators, liquidity providers, and white-label partners interact with the D8X perpetual futures engine.",
+    "pipelineStatus": "Pipeline Active",
+    "version": "v4.2.0",
+    "steps": [
+      {
+        "id": "01",
+        "title": "Trade",
+        "subtitle": "Open perpetual positions",
+        "desc": "Traders open perpetual positions with collateral. D8X supports linear, inverse, and quanto perpetuals on virtually any ERC-20."
+      },
+      {
+        "id": "02",
+        "title": "Liquidate",
+        "subtitle": "Earn liquidation fees",
+        "desc": "Anyone can request the AMM to liquidate a trader when margin drops below maintenance. The liquidator earns a fee shared with the protocol."
+      },
+      {
+        "id": "03",
+        "title": "Provide",
+        "subtitle": "Liquidity provision",
+        "desc": "LPs provide liquidity to perpetual pools and participate in AMM profit and loss. Earn fees in the pool token (e.g. USDC)."
+      },
+      {
+        "id": "04",
+        "title": "Partner",
+        "subtitle": "White-label and earn",
+        "desc": "White-label partners route trades to D8X via UI kit, SDK, or API. Partners earn fees on every transaction through their frontend."
+      }
+    ]
+  },
+  "validation": {
+    "badge": "Security Audit",
+    "title": "Security Audit",
+    "desc": "D8X smart contracts have been audited by leading security firms. Multi-layered audit approach demonstrates commitment to protocol security.",
+    "status": "VERIFIED",
+    "statusDesc": "Smart contracts audited by PeckShield, HYDN, Hacken & OtterSec",
+    "compliance": [
+      { "name": "PeckShield", "status": "VERIFIED", "detail": "Perpetuals, Governance, D8X Token (May & Aug 2023)" },
+      { "name": "HYDN", "status": "VERIFIED", "detail": "Composite Token on Berachain (Feb 2025)" },
+      { "name": "Hacken", "status": "VERIFIED", "detail": "Early version smart contracts" },
+      { "name": "OtterSec", "status": "VERIFIED", "detail": "Pyth oracle integration" }
+    ],
+    "partners": ["PeckShield", "HYDN", "Hacken", "OtterSec"]
+  },
+  "faq": {
+    "badge": "FREQUENTLY ASKED QUESTION",
+    "title": "FAQ",
+    "titleAccent": "",
+    "desc": "Have questions about D8X?",
+    "items": [
+      { "q": "White-label & earn", "a": "On every transaction made through your frontend or app, you'll collect a white-label partner fees. Freely customize your white-label partner fee and take charge of your revenue potential.\n\nD8X provides white-label partners with secure access to an institutional-grade DEX and the opportunity to generate a significant revenue stream through its native partner fee option. All white-label partner fees are transferred directly to the white-label partner's wallet, and partners retain full custody of their funds.\n\nWhite-label partners must make a minimum investment of as low as $100 into the default fund in order to participate on D8X. The size of the investment determines the partners's tier, which in turn affects the trading conditions available for their traders. Higher tiers offer better trading conditions, allowing white-label partners to charge higher fees while still providing competitive conditions to their traders.\n\nRefer to the D8X Trader fee table for an overview on how you can affect the exchange fees paid by your traders." },
+      { "q": "D8X UI-kit", "a": "The D8X open-source UI-Kit offers a premier perpetual futures frontend tailored for desktop, tablet and mobile devices.\n\nDive into our hosted version on testnet and experience the capabilities firsthand - Explore the UI-Kit!\n\nThe D8X UI-Kit features:\n\nTrade View: Seamlessly choose markets and execute Market, Limit, and Stop orders with precision. Dive deep with settings that offer intricate control, from leverage adjustments and order sizing to setting slippage, expiry, and the 'reduce-only' function. Stay informed with our dynamic TradingView chart and live price tickers. Quickly access open positions, monitor your open orders, review trade history, and keep tabs on funding payments, all at a single glance.\n\nDynamic Referral System: Boost engagement with our multi-tiered referral system. Empower referrers with unique codes, allowing traders to benefit from fee kickbacks. Referrers earn a commission on all volume their referrals generate. Tailor the commission rate to fit your business strategy – for instance, link it to your token. The more tokens a referrer holds, the higher the commission they reap. Moreover, onboard partners with specific commission rates, granting them the flexibility to further introduce their own partners. A streamlined growth strategy for your frontend out of-the box!\n\nPortfolio View: Traders can effortlessly view their entire portfolio — from balances and PnL to referral earnings and liquidity reward insights. Everything you need, right at your fingertips.\n\nVault View: Empower your users to tap into the D8X liquidity pools directly via your frontend. Unlock a lucrative revenue avenue as they reap yields from one-sided pools!\n\nInterested? Fork, brand and host our UI-kit and spin up your frontend in no-time. Our DevOps Guide provides all technical information you need to know." },
+      { "q": "D8X NodeSDK & RestAPI", "a": "If you want to integrate D8X into your existing user-interface you can use D8X's APIs and NodeSDK.\n\nD8X's open-sourced WS and HTTPS API offers the following services:\n\nMain API service: main webscoket and REST API for the trading interface\nHistory service: logs events such as trades and liquidity provision\nCandle service: prepares candle data for TradingView charts\nReferral service: implements the backend for the D8X referral system\n\nInterested? Our DevOps Guide provides links to all relevant reposititories with the information you need to know.\n\nThe D8X typescript NodeSDK is an alternative/complementary way of accessing D8X. Our NodeSDK documentation provides all technical information you need to know." },
+      { "q": "D8X smart-contract integration", "a": "You can white-label D8X by directly trading from smart contracts. The D8X community requested solidity calls for opening/closing trades and reading the size of the positions from another contract. This is especially useful if you want to use D8X to hedge your books on chain or if you want to automated trading strategies directly on chain.\n\nRefer to our D8X Integration Repository for an overview on how to integration on smart-contract level." },
+      { "q": "What risks do white-label partners face on D8X?", "a": "On D8X, white-label partners have custodial control over their funds and therefore do not face any risks related to their wallet. In the event of a smart contract exploit, only the funds of traders in active trades may be at risk of loss.\n\nWhite-label partners are responsible for managing their own keys and addresses and may choose to migrate their wallet address as needed.\n\nThe D8X token is not used in pricing or as collateral, so its price movements do not pose any risk to white-label partners beyond general market risk.\n\nTraders face market risks and risks associated with trading on the decentralized AMM, and in the event of AMM insolvency, losses are shared proportionally among traders with open positions." },
+      { "q": "How you can contact us to discuss your white-label project?", "a": "info@quantena.tech" }
+    ]
+  },
+  "integration2": {
+    "badge": "PARTNERS & PRESS",
+    "title": "Backed by",
+    "titleAccent": "the best",
+    "desc": "Our investors and the media that covers us.",
+    "mediaBrands": [
+      { "name": "DLNews", "url": "https://www.dlnews.com" },
+      { "name": "Crowdfund Insider", "url": "https://www.crowdfundinsider.com" },
+      { "name": "Coins.fr", "url": "https://www.coins.fr" },
+      { "name": "Blockworks", "url": "https://blockworks.co" },
+      { "name": "CoinDesk", "url": "https://www.coindesk.com" },
+      { "name": "Fortune", "url": "https://fortune.com" },
+      { "name": "TechCrunch", "url": "https://techcrunch.com" },
+      { "name": "Cryptonews", "url": "https://cryptonews.com" },
+      { "name": "Yahoo Finance", "url": "https://finance.yahoo.com" },
+      { "name": "Cryptopolitan", "url": "https://www.cryptopolitan.com" },
+      { "name": "The Block", "url": "https://www.theblock.co" },
+      { "name": "Cryptosaurus Networks", "url": "https://cryptosaurus.network" },
+      { "name": "CryptoPotato", "url": "https://cryptopotato.com" },
+      { "name": "Crypto News BTC", "url": "https://cryptonewsbtc.com" },
+      { "name": "TokenInsight", "url": "https://tokeninsight.com" },
+      { "name": "CoinMarketCap", "url": "https://coinmarketcap.com" },
+      { "name": "Morningstar", "url": "https://www.morningstar.com" },
+      { "name": "E-Crypto News", "url": "https://e-cryptonews.com" },
+      { "name": "Techopedia", "url": "https://www.techopedia.com" },
+      { "name": "be in crypto", "url": "https://beincrypto.com" },
+      { "name": "Supermoney", "url": "https://supermoney.com" }
+    ],
+    "partners": [
+      { "name": "Polygon Ventures", "url": "https://polygon.technology/ventures" },
+      { "name": "C1 Ventures", "url": "https://c1ventures.com" },
+      { "name": "Veris Ventures", "url": "https://verisventures.com" },
+      { "name": "Axelar", "url": "https://axelar.network" },
+      { "name": "Cogitent Ventures", "url": "https://cogitent.vc" },
+      { "name": "Crypto Discover", "url": "https://cryptodiscover.io" },
+      { "name": "Pragma", "url": "https://pragma.build" },
+      { "name": "SwissBorg", "url": "https://swissborg.com" },
+      { "name": "Pyth", "url": "https://pyth.network" },
+      { "name": "blockconsult", "url": "https://blockconsult.io" },
+      { "name": "SUDO", "url": "https://sudo.xyz" },
+      { "name": "QuickNode", "url": "https://quicknode.com" },
+      { "name": "Layer", "url": "https://layer.xyz" },
+      { "name": "Decima", "url": "https://decima.xyz" }
+    ]
+  },
+  "integration": {
+    "badge": "INTEGRATION",
+    "title": "Integration",
+    "titleAccent": "Options",
+    "desc": "D8X offers flexible white-labeling options. Choose how you want to integrate perpetual futures into your frontend.",
+    "cards": [
+      {
+        "tag": "UI-KIT",
+        "name": "D8X UI-Kit",
+        "desc": "The open-source UI-Kit offers a premier perpetual futures frontend tailored for desktop, tablet and mobile. Fork, brand and host your own UI and start collecting partner fees in no time.",
+        "features": ["Trade View", "Dynamic Referral System", "Portfolio & Vault View"],
+        "cta": "Explore UI-Kit",
+        "href": "https://app.testnet.d8x.exchange/",
+        "highlighted": true
+      },
+      {
+        "tag": "API",
+        "name": "Node SDK & REST API",
+        "desc": "Connect D8X to your existing app through the Node SDK or REST API. Main API, History, Candle, and Referral services available.",
+        "features": ["WebSocket & REST", "Trading Interface", "Referral Backend"],
+        "cta": "DevOps Guide",
+        "href": "https://d8x.gitbook.io/d8x",
+        "highlighted": false
+      },
+      {
+        "tag": "ON-CHAIN",
+        "name": "Smart Contract Integration",
+        "desc": "Integrate directly on-chain. Use D8X to hedge your books or run automated trading strategies from another contract.",
+        "features": ["Solidity Calls", "On-Chain Hedging", "Automated Strategies"],
+        "cta": "Integration Repo",
+        "href": "https://github.com/D8-X",
+        "highlighted": false
+      }
+    ]
+  },
+  "cta": {
+    "title1": "Start Trading",
+    "title2": "Perpetual Futures",
+    "desc": "Experience institutional-grade perpetual futures trading on-chain. Connect your wallet, start trading with optimal conditions, or white-label our infrastructure.",
+    "button": "Launch App",
+    "stats": [
+      { "label": "Security", "value": "ENCRYPTED_256" },
+      { "label": "Latency", "value": "0.02ms" },
+      { "label": "Node", "value": "US_EAST_4" }
+    ]
+  },
+  "footer": {
+    "platform": {
+      "title": "// Platform",
+      "links": [
+        { "name": "Trade", "href": "https://d8x.gitbook.io/d8x/contribute-and-earn/traders" },
+        { "name": "Whitelabel", "href": "https://d8x.gitbook.io/d8x/contribute-and-earn/white-label-d8x" },
+        { "name": "Provide Liquidity", "href": "https://d8x.gitbook.io/d8x/contribute-and-earn/liquidity-providers" },
+        { "name": "Liquidate", "href": "https://d8x.gitbook.io/d8x/contribute-and-earn/liquidators" },
+        { "name": "Govern", "href": "https://d8x.gitbook.io/d8x/contribute-and-earn/governors" }
+      ]
+    },
+    "resources": {
+      "title": "// Resources",
+      "links": [
+        { "name": "Docs", "href": "https://d8x.gitbook.io/d8x" },
+        { "name": "Medium", "href": "https://medium.com/@d8x.exchange" }
+      ]
+    },
+    "developers": {
+      "title": "// Community",
+      "links": [
+        { "name": "X (Twitter)", "href": "https://twitter.com/d8x_exchange" },
+        { "name": "Discord", "href": "https://discord.gg/kUEZ5cvzKn" },
+        { "name": "GitHub", "href": "https://github.com/D8-X" }
+      ]
+    },
+    "company": {
+      "title": "// Legal",
+      "links": [
+        { "name": "Terms of Service", "href": "https://d8x.exchange/terms" },
+        { "name": "Privacy Policy", "href": "https://d8x.exchange/privacy" },
+        { "name": "Disclaimer", "href": "https://d8x.exchange/disclaimer" }
+      ]
+    },
+    "status": "OPERATIONAL",
+    "uptime": "Uptime: 99.998%",
+    "version": "v4.2.0-stable",
+    "build": "#8824-XC",
+    "env": "PRODUCTION",
+    "newsletterTitle": "Subscribe_Newsletter",
+    "newsletterDesc": "Get updates on new features and releases.",
+    "copyright": "© 2024 D8X Exchange",
+    "secureLabel": "Secure_Connection/>"
+  }
+}

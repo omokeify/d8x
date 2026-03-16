@@ -1,0 +1,10 @@
+/**
+ * Main stylesheet - imports in order:
+ * 1. variables.css - theme tokens (edit to change colors, spacing)
+ * 2. base.css - fonts, reset, scrollbar
+ * 3. utilities.css - Tailwind-style utility classes
+ */
+
+@import "variables.css";
+@import "base.css";
+@import "utilities.css";
