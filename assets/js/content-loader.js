@@ -198,15 +198,18 @@
       const html = cards
         .map(
           (c) => `
-          <div class="relative bg-black p-6 lg:p-8 group hover:bg-white/5 transition-colors ${c.highlighted ? "ring-1 ring-orange-500" : ""}">
-            ${c.badge ? `<div class="absolute -top-px left-1/2 -translate-x-1/2"><span class="bg-orange-500 text-black text-xs font-semibold px-3 py-1">${c.badge}</span></div>` : ""}
+          <div class="relative bg-black p-6 lg:p-8 group hover:bg-white/5 transition-colors ${c.highlighted ? "ring-1 ring-[#6649DF]" : ""}">
+            ${c.badge ? `<div class="absolute -top-px left-1/2 -translate-x-1/2"><span class="bg-[#6649DF] text-white text-xs font-semibold px-3 py-1">${c.badge}</span></div>` : ""}
             <div class="text-xs text-white/40 font-mono mb-4">${c.tag || ""}</div>
-            <h3 class="text-xl font-semibold text-white mb-3 group-hover:text-orange-500 transition-colors">${c.name}</h3>
-            <p class="text-sm text-white/50 mb-6 leading-relaxed">${c.desc}</p>
+            <h3 class="text-xl font-semibold text-white mb-3 group-hover:text-[#6649DF] transition-colors">${c.name}</h3>
+            <p class="text-sm text-white/50 mb-6 leading-relaxed flex-grow">${c.desc}</p>
             <ul class="space-y-3 mb-8">
               ${(c.features || []).map((f) => `<li class="flex items-center gap-3"><span class="text-sm text-white/70">${f}</span></li>`).join("")}
             </ul>
-            <a href="${c.href || "#"}" target="_blank" rel="noopener noreferrer" class="block w-full text-center py-3 text-sm font-semibold transition-all ${c.highlighted ? "bg-white text-black hover:bg-orange-500 hover:text-white" : "border border-white/20 text-white hover:bg-white/5"}">${c.cta}</a>
+            ${c.highlighted 
+              ? `<a href="${c.href || "#"}" target="_blank" rel="noopener noreferrer" class="gradient-btn-wrapper w-full flex mt-auto"><div class="gradient-btn-inner w-full justify-center">${c.cta}</div></a>`
+              : `<a href="${c.href || "#"}" target="_blank" rel="noopener noreferrer" class="block w-full text-center py-3 text-sm font-semibold transition-all border border-white/20 text-white hover:bg-white/5 mt-auto">${c.cta}</a>`
+            }
           </div>`
         )
         .join("");

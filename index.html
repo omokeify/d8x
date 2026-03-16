@@ -71,8 +71,68 @@
               <p class="text-white/60 text-sm leading-relaxed" data-content="hero.subhead">Deploy autonomous agents optimized for infrastructure scalability.</p>
             </div>
             <div>
-              <a href="https://app.testnet.d8x.exchange/" target="_blank" rel="noopener noreferrer" class="group flex items-center justify-center w-fit gap-3 bg-white text-black px-6 py-3 text-sm font-semibold tracking-wider hover:bg-orange-500 hover:text-white transition-all duration-300">
-                <span data-content="hero.cta">INITIALIZE BUILD</span> →
+              <style>
+                @keyframes border-rotate {
+                  100% { transform: rotate(360deg); }
+                }
+                .gradient-btn-wrapper {
+                  position: relative;
+                  display: inline-flex;
+                  border-radius: 8px;
+                  padding: 2px;
+                  overflow: hidden;
+                  cursor: pointer;
+                  background-color: #000;
+                  transition: transform 0.3s ease;
+                }
+                .gradient-btn-wrapper::before {
+                  content: "";
+                  position: absolute;
+                  top: -100%;
+                  left: -100%;
+                  width: 300%;
+                  height: 300%;
+                  background: conic-gradient(
+                    transparent,
+                    rgba(102, 73, 223, 0.2),
+                    #6649DF,
+                    #ffffff,
+                    #6649DF,
+                    rgba(102, 73, 223, 0.2),
+                    transparent
+                  );
+                  animation: border-rotate 4s linear infinite;
+                }
+                .gradient-btn-wrapper:hover {
+                  transform: scale(1.05);
+                }
+                .gradient-btn-wrapper:hover::before {
+                  animation-duration: 1.5s;
+                }
+                .gradient-btn-inner {
+                  position: relative;
+                  background-color: #000;
+                  color: white;
+                  border-radius: 6px;
+                  padding: 0.875rem 2.5rem;
+                  font-size: 0.875rem;
+                  font-weight: 600;
+                  letter-spacing: 0.05em;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                  z-index: 1;
+                  transition: background-color 0.3s ease;
+                }
+                .gradient-btn-wrapper:hover .gradient-btn-inner {
+                  background-color: #111;
+                }
+              </style>
+              <a href="https://app.testnet.d8x.exchange/" target="_blank" rel="noopener noreferrer" class="gradient-btn-wrapper">
+                <div class="gradient-btn-inner">
+                  <span data-content="hero.cta">INITIALIZE BUILD</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </div>
               </a>
             </div>
           </div>
@@ -290,11 +350,11 @@
             <h2 class="text-4xl lg:text-6xl font-bold text-white mb-4" data-content="cta.title1">Ready to Launch</h2>
             <div class="text-4xl lg:text-6xl font-bold text-gradient mb-8" data-content="cta.title2">System Ready</div>
             <p class="text-white/50 max-w-xl mx-auto mb-10 leading-relaxed" data-content="cta.desc">All systems nominal. Infrastructure awaiting initialization command.</p>
-            <a href="https://app.testnet.d8x.exchange/" target="_blank" rel="noopener noreferrer" class="group flex items-center justify-center w-fit gap-3 bg-white text-black px-8 py-4 text-sm font-semibold tracking-wider hover:bg-orange-500 hover:text-white transition-all duration-300 mx-auto">
-              <span class="font-mono">[</span>
-              <span data-content="cta.button">Initialize_Build</span>
-              <span class="font-mono">]</span>
-              →
+            <a href="https://app.testnet.d8x.exchange/" target="_blank" rel="noopener noreferrer" class="gradient-btn-wrapper mx-auto mt-4">
+              <div class="gradient-btn-inner">
+                <span data-content="cta.button">Initialize_Build</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </div>
             </a>
           </div>
         </div>
